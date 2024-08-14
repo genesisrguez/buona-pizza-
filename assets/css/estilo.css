@@ -1,0 +1,71 @@
+body {
+    background-image: url('/assets/img/9824651.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#divone {
+    
+    font-family:'Indie Flower'; 
+}
+
+#propina {
+    border-radius: 5px;
+}
+
+#enviar {
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    background-color: rgb(136, 28, 28);
+    color: white;
+}
+
+.navbar-brand {
+    color: rgb(0, 0, 0);
+}
+
+.resumenPedidos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.resumenPedidos p {
+    display: flex;
+    justify-content: space-between;
+    margin: 0; 
+    align-items: center
+}
+
+.resumenPedidos p span {
+    font-weight: bold; 
+}
+
+@media (max-width: 768px) {
+    .resumenPedidos p {
+        font-size: 14px;
+    }
+
+    #propina {
+        width: 100%;
+    }
+
+    #enviar {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .col-12 {
+        padding: 15px; 
+    }
+
+    .container {
+        padding-top: 20px;
+    }
+}
+
